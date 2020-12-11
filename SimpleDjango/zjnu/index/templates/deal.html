@@ -1,0 +1,418 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fashionpress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="{% static 'cssdeal/bootstrap.css' %}" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="{% static 'cssdeal/style.css' %}" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='http://fonts.useso.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="{% static 'jsdeal/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'jsdeal/responsiveslides.min.js' %}"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+</script>
+<script type="text/javascript" src="{% static 'jsdeal/hover_pack.js' %}"></script>
+</head>
+<body>
+<div class="header">	
+ <div class="wrap"> 
+          <div class="logo">
+			 <img src="{% static 'imagesdeal/zjnulogo.png' %}" alt=""/>
+			  
+		  </div>
+		  <div class="header-right">
+			 <div id="cssmenu">
+				<ul>
+				  
+				   <li class="has-sub"><a href=""><span>主页</span></a> 
+				     
+				   </li> |
+				   <li class="active"><a href=""><span>闲置/拼单</span></a></li> |
+				   <li class="has-sub"><a href=""><span>代购跑腿</span></a></li> |
+				   <li class="last"><a href=""><span>约聚</span></a></li>
+				</ul>
+			 </div>
+			  <a href="">
+			  <div class="user">
+				  <img class="icon1" src="{% static 'imagesdeal/avatar.png' %}" alt=""/>
+									  </div><h4 style="padding: 10px;">个人中心</h4></a>
+		   </div>
+		   <div class="clear"></div>
+      </div>
+    </div>
+		  <div class="clearfix"> </div>
+    <div class="clearfix"> </div>
+<div class="column_center" >
+  <div class="container">
+	<div class="search">
+	  <div class="stay">搜索物品</div>
+	  <div class="stay_right">
+		  <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+		  <input type="submit" value="">
+	  </div>
+	  <div class="clearfix"> </div>
+	</div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<div class="main">
+  <div class="content_top">
+  	<div class="container">
+	   <div class="col-md-3 sidebar_box">
+	   	 <div class="sidebar">
+			<div class="menu_box">
+		    <h3 class="menu_head">物品清单</h3>
+			  <ul class="menu">
+				<li class="item1"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/> 服装</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#"> 衣 服</a></li>
+						<li class="subitem2"><a href="#"> 裤 子</a></li>
+						<li class="subitem3"><a href="#"> 鞋 类</a></li>
+					</ul>
+				</li>
+				<li class="item2"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>学习</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#"> 书 籍</a></li>
+						<li class="subitem2"><a href="#"> 笔 记</a></li>
+						<li class="subitem3"><a href="#">学 习 工 具</a></li>
+					</ul>
+				</li>
+				<li class="item3"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>体育</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#"> 球 类</a></li>
+						<li class="subitem2"><a href="#">健 身 器 材</a></li>
+						<li class="subitem3"><a href="#">其 他</a></li>
+					</ul>
+				</li>
+				<li class="item4"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>电子产品</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#">手 机</a></li>
+						<li class="subitem2"><a href="#">电 脑</a></li>
+						<li class="subitem3"><a href="#">其 他</a></li>
+					</ul>
+				</li>
+				<li class="item5"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>音乐</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#">民 族 乐 器</a></li>
+						<li class="subitem2"><a href="#">西 洋 乐 器</a></li>
+						<li class="subitem3"><a href="#">其 他</a></li>
+					</ul>
+				</li>
+				<li class="item6"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>饰品</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#">围 巾</a></li>
+						<li class="subitem2"><a href="#">帽 子</a></li>
+						<li class="subitem3"><a href="#">小 件 饰 品</a></li>
+					</ul>
+				</li>
+				<li class="item7"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>运动</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#">滑 板 </a></li>
+						<li class="subitem2"><a href="#">轮 滑 鞋 </a></li>
+						<li class="subitem3"><a href="#">其 他 </a></li>
+					</ul>
+				</li>
+				<li class="item8"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>车类</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#">自 行 车 </a></li>
+						<li class="subitem2"><a href="#">摩 托 车 </a></li>
+						<li class="subitem3"><a href="#">其 他 </a></li>
+					</ul>
+				</li>
+				<li class="item9"><a href="#"><img class="arrow-img" src="{% static 'imagesdeal/f_menu.png' %}" alt=""/>生活</a>
+					<ul class="cute">
+						<li class="subitem1"><a href="#">大 件 用 品 </a></li>
+						<li class="subitem2"><a href="#">小 件 用 品</a></li>
+						<li class="subitem3"><a href="#">收 藏 品 </a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+				<!--initiate accordion-->
+		<script type="text/javascript">
+			$(function() {
+			    var menu_ul = $('.menu > li > ul'),
+			           menu_a  = $('.menu > li > a');
+			    menu_ul.hide();
+			    menu_a.click(function(e) {
+			        e.preventDefault();
+			        if(!$(this).hasClass('active')) {
+			            menu_a.removeClass('active');
+			            menu_ul.filter(':visible').slideUp('normal');
+			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			        } else {
+			            $(this).removeClass('active');
+			            $(this).next().stop(true,true).slideUp('normal');
+			        }
+			    });
+			
+			});
+		</script>
+       </div>
+		    <div class="delivery">
+				<img src="{% static 'imagesdeal/delivery.jpg' %}" class="img-responsive" alt=""/>
+				<h3>浙师大校园购</h3>
+				<h4>ZJNU&YOU</h4>
+			</div>
+			<div class="twitter">
+			   <h3 >用户须知</h3>
+			   <ul class="twt1">
+			   	  <i class="twt"> </i>
+			   	  <li class="twt1_desc"><span class="m_1">本平台</span> 只作为二手交易的中介，不对交易所产生的<span class="m_1">任何结果</span>负责</li>
+			   	  <div class="clearfix"> </div>
+			   </ul>
+			   <ul class="twt1">
+			   	  <i class="twt"> </i>
+			   	  <li class="twt1_desc"><span class="m_1">用户</span>在挂售物品时要实事求是，客观发布信息。若经查验是虚假信息，用户将受到 <span class="m_1">封号处理</span></li>
+			   	  <div class="clearfix"> </div>
+			   </ul>
+			   <ul class="twt1">
+			   	  <i class="twt"> </i>
+			   	  <li class="twt1_desc"><span class="m_1">严禁</span>在平台上售卖违法物品，传播淫秽信息。<span class="m_1">对于不法行为，我们必将追究其法律责任。</span></li>
+			   	  <div class="clearfix"> </div>
+			   </ul>
+			</div>
+			<div class="clients">
+				<h3>亲爱的用户们</h3>
+				<h4>浙师天地大学生活服务平台是面向浙师大全体学生和教职工的综合服务平台，宗旨是为每一名用户提供最便捷的服务和最佳使用体验。在二手交易平台上，大家可以出售闲置物品，低价淘到宝贝。希望大家能遵守平台原则，诚信交易。祝购物愉快。</h4>
+			   <ul class="user1">
+			   	<i class="user_icon"></i>
+			   	<li class="user_icon"><a href="#"><p>当前用户：欧洲</p></a></li>
+			   	<div class="clearfix"> </div>
+			   </ul>
+			</div>
+	   </div> 
+	   <div class="col-md-9 content_right">
+	    <div class="top_grid2">
+	      <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p3.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>灰色卫衣（穿过几次，九成新）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥50<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p4.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>潮流滑板（用了一周，基本全新）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥250<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="col-md-4 top_grid1-box1"><a href="/index/details">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p5.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>羽毛球拍一对（用过几次，九成新）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥40<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	    </a> </div>
+	     <div class="clearfix"> </div>
+	    </div> 
+	    <div class="top_grid2">
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	 <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p6.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>斯伯丁篮球（未使用过，全新）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥80<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p7.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>20kg哑铃一对（用了两年，保存良好）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥50<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p8.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>潮男双肩包（用了一个月，九成新）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥60<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="clearfix"> </div>
+	    </div> 
+	    <h4 class="head">当前<span class="m_2">最热</span></h4>
+	    <div class="top_grid2">
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p9.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>手工钩织耳环（用了一年，保存良好）	</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥100<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	    </a> </div>
+	    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	 <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p10.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>鸭舌帽（用了半年，保存良好）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥3<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p11.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>苹果有线耳机（用了三年，略显破旧）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥15<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="clearfix"> </div>
+	    </div> 
+	    <div class="top_grid2">
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p12.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>躺椅（用了四年，完整好用）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥40<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p13.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>《元代伊斯兰教研究》（用了四年，保存完整）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥5<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="col-md-4 top_grid1-box1"><a href="single.html">
+	     	<div class="grid_1">
+	     	  <div class="b-link-stroke b-animate-go  thickbox">
+		        <img src="{% static 'imagesdeal/p14.jpg' %}" class="img-responsive" alt=""/> </div>
+	     	  <div class="grid_2">
+	     	  	<p>小功率吹风机（用了四年，依然好用）</p>
+	     	  	<ul class="grid_2-bottom">
+	     	  		<li class="grid_2-left"><p>￥20<small></small></p></li>
+	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想要</div></li>
+	     	  		<div class="clearfix"> </div>
+	     	  	</ul>
+	     	  </div>
+	     	</div>
+	     </a></div>
+	     <div class="clearfix"> </div>
+	    </div> 
+       </div>
+	  </div>  	    
+	</div>
+</div>
+
+<div class="footer">
+   	    <div class="wrap">
+   	    	<div class="footer-left">
+		 		<ul class="footer-nav">
+					<li><a href="index.html">主页</a></li> |
+					<li><a href="about.html">关于我们</a></li> | 
+					<li><a href="index.html">更多服务</a></li> | 
+					<li><a href="works.html">工作</a></li> |
+					<li><a href="contact.html">与我们联系</a></li>
+				</ul>
+				<div class="copy">
+			       <p>Copyright &copy; 2020. Zoe Team.</p>
+		        </div>
+			</div>
+			<div class="social1">	
+	           <ul>	
+				    <li class="facebook"><a href="#"><span> </span></a></li>
+				    <li class="linkedin"><a href="#"><span> </span></a></li>
+				    <li class="twitter"><a href="#"><span> </span></a></li>	 
+				    <li class="pinterest"><a href="#"><span> </span></a></li>
+				    <li class="dribble"><a href="#"><span> </span></a></li>			
+					<li class="google"><a href="#"><span> </span></a></li>
+			  </ul>
+		   </div>
+		   <div class="clear"></div>
+	    </div>
+   </div>
+ 
+</body>
+</html>		
