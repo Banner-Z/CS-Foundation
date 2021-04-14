@@ -9,3 +9,9 @@ https://leetcode-cn.com/circle/article/lWYCzv/
 **滑动窗口**
 
 https://www.cnblogs.com/huansky/p/13488234.html
+
+**动规**
+
+https://www.bilibili.com/video/BV18x411V7fm?from=search&seid=17957885797478477765
+
+https://www.bilibili.com/video/BV12W411v7rd/?spm_id_from=333.788.recommend_more_video.-1
