@@ -1,4 +1,4 @@
-//½áµãÑ¡Ôñ
+//ç»“ç‚¹é€‰æ‹©
 //http://lx.lanqiao.cn/problem.page?gpid=T14
 
 import java.util.ArrayList;
@@ -23,17 +23,17 @@ public class ALGO4 {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			v.get(a-1).add(b-1);
-			v.get(b-1).add(a-1);	//ÒòÎª²»È·¶¨¸¸×Ó¹ØÏµ£¬ËùÒÔ¼ÓÁ½¸ö
+			v.get(b-1).add(a-1);	//å› ä¸ºä¸ç¡®å®šçˆ¶å­å…³ç³»ï¼Œæ‰€ä»¥åŠ ä¸¤ä¸ª
 		}
-		bfs(0,-1);
-		System.out.println(Math.max(dp[0][0], dp[0][1]));	//ÒòÎªÊÇÉîËÑ£¬ËùÒÔ0×î´ó
+		dfs(0,-1);
+		System.out.println(Math.max(dp[0][0], dp[0][1]));	//å› ä¸ºæ˜¯æ·±æœï¼Œæ‰€ä»¥0æœ€å¤§
 	}
 
-	private static void bfs(int root, int pre) {
+	private static void dfs(int root, int pre) {
 		Vector<Integer> son = v.get(root);
 		for(int i=0;i<son.size();i++) {
-			if(son.get(i)!=pre) {	//Ö»Òª²»Íù»Ø×ß¼´¿É£¬´ËÌâ²»ÊÇÅĞ¶Ïvisit
-				bfs(son.get(i), root);
+			if(son.get(i)!=pre) {	//åªè¦ä¸å¾€å›èµ°å³å¯ï¼Œæ­¤é¢˜ä¸æ˜¯åˆ¤æ–­visit
+				dfs(son.get(i), root);
 				dp[root][1] += dp[son.get(i)][0];
 				dp[root][0] += Math.max(dp[son.get(i)][0], dp[son.get(i)][1]);
 				
